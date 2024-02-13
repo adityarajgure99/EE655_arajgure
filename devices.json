@@ -1,0 +1,93 @@
+[
+  {
+    "deviceId": "1234",
+    "deviceType": "fan"
+  },
+  {
+    "deviceId": "12345",
+    "deviceType": "light"
+  },
+  {
+    "deviceId": "fan_1",
+    "deviceType": "fan"
+  },
+  {
+    "deviceId": "fan_2",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_5",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_6",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_8",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_9",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_11",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_10",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "fan_4",
+    "deviceType": "fan",
+    "data": [],
+    "commands": []
+  },
+  {
+    "deviceId": "light_1",
+    "deviceType": "light",
+    "data": [
+      {
+        "val": "100 lumen",
+        "timestamp": "2024-02-13T04:29:12.501Z"
+      }
+    ],
+    "commands": [
+      {
+        "val": "ON",
+        "timestamp": "2024-02-13T04:29:47.525Z"
+      },
+      {
+        "val": "OFF",
+        "timestamp": "2024-02-13T04:30:04.792Z"
+      }
+    ]
+  },
+  {
+    "deviceId": "light_2",
+    "deviceType": "light",
+    "data": [
+      {
+        "val": "100 lumen",
+        "timestamp": "2024-02-13T04:30:16.074Z"
+      }
+    ],
+    "commands": []
+  }
+]

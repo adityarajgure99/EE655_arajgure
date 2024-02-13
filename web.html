@@ -1,0 +1,39 @@
+<html>
+    <head><title>Device Manager</title></head>
+        <body>
+            <h2 style="color: blue; font-size: 32px; font-family: 'Times New Roman', Times, serif;" >Register Devices</h2>
+            <form action = "http://127.0.0.1:3000/register" method = "POST">
+                <input type = "text" name = "deviceId" placeholder="Enter the Device Id">  
+                <input type = "text" name = "deviceType" placeholder="Enter the Device Type">
+               <input type = "submit" value = "Add">
+            </form>
+    
+        </body>
+
+        <body>
+            <h2 style="color:blueviolet; font-size: 32px; font-family: 'Times New Roman', Times, serif;">Send Data</h2>
+            <form action = "http://127.0.0.1:3000/data" method = "POST">
+               <input type = "text" name = "deviceId" placeholder="Enter the Device Id"> 
+               <input type = "text" name = "data" placeholder="Enter the Device data">
+               <input type = "submit" value = "Send">
+            </form>
+    
+        </body>
+
+        <body>
+            <h2 style="color: brown; font-size: 32px; font-family: 'Times New Roman', Times, serif;">Send Command</h2>
+            <form action = "http://127.0.0.1:3000/command" method = "POST">
+               <input type = "text" name = "deviceId" placeholder="Enter the Device Id"> 
+               <input type = "text" name = "command" placeholder="Enter the command"> 
+               <input type = "submit" value = "Send">
+            </form>
+    
+        </body>
+
+        <body>
+            <h2 style="color: green; font-size: 32px; font-family: 'Times New Roman', Times, serif;">Read Devices</h2>
+            <form action = "http://127.0.0.1:3000/show" method = "GET">
+               <input type = "submit" value = "GET">
+            </form>
+        </body>
+</html>
